@@ -19,3 +19,38 @@ Combining this novel unit of time with the recursive approach demonstrated in B 
 Lambert and Power calculated the used bytecode instruction time using a ≈1GHz dual core Intel Pentium III. To account for processors operating outside of the 1-10GHz range, the programmer can simply decrement or increment the magnitude of iterations for each magnitude difference in processor speeds (116 ± 1n).
 
 > 1. Lambert, J. M., J. F. Power, _Platform Independent Timing of Java Virtual Machine Bytecode Instructions_, Electronic Notes in Theoretical Computer Science. **220** (2008), pp. 97–113.
+
+## Execution
+
+```sh
+# download ArnoldC compiler and compile
+$ wget http://lhartikk.github.io/ArnoldC.jar
+$ java -jar ArnoldC.jar heatdeath.arnoldc
+
+# run
+$ java heatdeath
+```
+
+## License
+
+MIT License
+
+Copyright (c) 2022 Elias Gabriel
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
